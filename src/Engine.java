@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Engine {
+public interface Engine {
+    void getEngine();
 }
