@@ -1,8 +1,8 @@
 public class Fiat extends Model{
 
-    public Fiat(Engine engine)
+    public Fiat(Engine engine, Type t)
     {
-        super(engine);
+        super(engine, t);
     }
 
     @Override

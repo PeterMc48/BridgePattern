@@ -1,8 +1,8 @@
 public class Escourt extends Model{
 
-    public Escourt(Engine engine)
+    public Escourt(Engine engine, Type t)
     {
-        super(engine);
+        super(engine, t);
     }
 
     @Override
